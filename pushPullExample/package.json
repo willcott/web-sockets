@@ -7,11 +7,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server.js",
-    "client": "node client.js"
+    "pushClient": "node pushClient.js",
+    "pullClient": "node pullClient.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.29.4",
     "ws": "^8.11.0"
   }
 }
